@@ -20,7 +20,7 @@ export default function App() {
     try {
       const parsed = JSON.parse(input);
 
-      const res = await fetch("http://localhost:3000/bfhl", {
+      const res = await fetch("https://bajajbackend-pzqc.onrender.com/bfhl", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
